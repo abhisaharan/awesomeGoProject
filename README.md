@@ -1,0 +1,2 @@
+# awesomeGoProject
+Go Programming fundamentals
