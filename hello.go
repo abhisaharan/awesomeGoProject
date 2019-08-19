@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 
-func main()  {
-	n, er := fmt.Println("here we go")
-	fmt.Println("this is the n ", n)
-	fmt.Println("and this is the er", er)
-
+func main() {
+	x := 6
+	fmt.Println("Hello world")
+	fmt.Println(runtime.GOOS)
+	fmt.Println(runtime.GOARCH)
+	fmt.Printf("%d\t\t%b", x, x)
 }
